@@ -52,9 +52,19 @@ hr{
 
       /* top-blog */
 
+      
+.top-blog{
+  padding: 30px 58px 35px 30px;
+}
+.top-blog > h2{
+  color: #562EFF;
+  font-size: 24px;
+  margin-top: 3px;
+}
 .blog{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
 }
 .blog-child{
   display: flex;
@@ -63,10 +73,28 @@ hr{
   width: 177px;
   height: 117px;
 }
+.blog-child-text{
+  margin-left: 16px;
+  margin-top: 5px;
+}
 .blog-title{
   display: block;
   font-size: 20px;
+  margin: 0 0 5px 0;
 }
 .blog-credit{
-  font-size: 18px;
+  font-size: 16px;
+  margin: 0;
 }
+.blog-text-by{
+  color: #9F9F9F;
+}
+.blog-text-danny{
+  color: #562EFF;
+}
+
+/* end top blog  */
+
+/* start latest course  */
+
+
