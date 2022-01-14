@@ -52,7 +52,7 @@ hr{
 
       /* top-blog */
 
-      
+
 .top-blog{
   padding: 30px 58px 35px 30px;
 }
@@ -96,5 +96,79 @@ hr{
 /* end top blog  */
 
 /* start latest course  */
+.latest-course{
+  padding: 30px 58px 35px 30px;
+}
+.latest-course > h2{
+  color: #562EFF;
+  font-size: 24px;
+  margin-top: 3px;
+}
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.image img{
+  width: 224px;
+  height: 104px;
+}
+.ract-heading, .powerpoint-heading, .javascript-heading{
+  margin-top: 10px;
+}
+.ract-heading h2{
+  font-size: 20.03px;
+  margin: 0;
+}
+.ract-small-heading h3{
+  font-size: 
+  14.69px;
+  color: #ED6B4F;
+  margin: 0;
+}
+.powerpoint-heading h2{
+  font-size: 20.03px;
+  margin: 0;
+}
+.powerpoint-small-heading h3{
+  font-size: 14.69px;
+  color: #ED6B4F;
+  margin: 0;
+}
+.javascript-heading h2{
+  font-size: 20.03px;
+  margin: 0;
+}
+.javascript-small-heading h3{
+  font-size: 14.69px;
+  color: #ED6B4F;
+  margin: 0;
+}
 
-
+/* rating  */
+.rating{
+  display: flex;
+}
+.rating a{
+  text-decoration: none;
+  color: #FFC014;
+  font-size: 1.2em;
+}
+.rating span{
+  color: 
+  #A2A2A2;
+}
+.time-side i{
+  color: 
+  #FF4A60;
+}
+.time-side{
+  color: 
+  #FF4A60;
+  background: #FFE4E8;
+  border-radius: 14.6913px;
+  margin-left: 20px;
+  font-size: 1.1em;
+}
+.time-side span{
+  color: #FF4A60;
+}
